@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <title>ART. Gallery &amp; Portfolio HTML5 Template for Artist | Designer | Agency</title>
+        <!--Meta-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!--Page Card for SEO-->
+        <meta property="og:title" content="ART. Simple Clean Portfolio HTML5 Template" />
+        <meta property="og:description" content="ART. Gallery &amp; Portfolio HTML5 Template for Creatives, Artist. Minimal, Morden, designed by SeaTheme" />
+        <meta property="og:url" content="https://html5.seatheme.net/art/entry/" />
+        <meta property="og:site_name" content="ART. Gallery &amp; Portfolio HTML5 Template Live Demo Site" />
+        <meta property="og:image" content="https://html5.seatheme.net/art/art-cover.jpg" />
+    	<meta name="twitter:card" content="ART. Gallery &amp; Portfolio HTML5 Template, designed by SeaTheme" />
+        <meta name="twitter:title" content="ART. Gallery &amp; Portfolio HTML5 Template Live Demo Site" />
+        <meta name="twitter:site" content="@Sea_Theme" />
+        <meta name="twitter:image" content="https://html5.seatheme.net/art/art-cover.jpg" />
+
+        <!-- Favicon -->
+        <link rel="icon" href="img/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" href="img/favicon-192x192.png" sizes="192x192" />
+        <link rel="apple-touch-icon" href="img/favicon-180x180.png" />
+        <meta name="msapplication-TileImage" content="img/favicon-270x270.png" />
+
+        <!-- Bootstrap CSS -->
+        <link rel='stylesheet' href='css/bootstrap.css' type='text/css' media='screen' />
+
+        <!-- Owl Carousel Plugin CSS -->
+        <link rel='stylesheet' href='css/owl.carousel.css' type='text/css' media='screen' />
+
+        <!-- IconFont CSS -->
+        <link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='screen' />
+
+        <!-- Lightbox Plugin CSS -->
+        <link rel='stylesheet' href='css/photoswipe.css' type='text/css' media='screen' />
+
+        <!-- Lightbox Plugin Skin CSS -->
+        <link rel='stylesheet' href='css/skin/photoswipe/default/default-skin.css' type='text/css' media='screen' />
+
+         <!-- BM builder CSS -->
+        <link rel='stylesheet' href='css/modules-style.css' type='text/css' media='screen' />
+
+        <!-- Single Portolio CSS -->
+        <link rel='stylesheet' href='css/post-portfolio.css' type='text/css' media='screen' />
+
+        <!-- Menu icon & Header icon CSS -->
+        <link rel='stylesheet' href='css/menuicon-default.css' type='text/css' media='screen' />
+        <link rel='stylesheet' href='css/headericon-default.css' type='text/css' media='screen' />
+
+        <!-- Art Theme Main CSS -->
+        <link rel='stylesheet' href='css/style.css' type='text/css' media='screen' />
+
+        <!--Custom style CSS -->
+        <link rel="stylesheet" href="css/custom.css" type="text/css" media='screen'>
+
+        <script>
+            var photoSwipeLocalize = [];photoSwipeLocalize.push({id:"facebook", label:"Share on Facebook", url:"https://www.facebook.com/sharer/sharer.php?u={{url}}"});photoSwipeLocalize.push({id:"twitter", label:"Tweet", url:"https://twitter.com/intent/tweet?text={{text}}&url={{url}}"});photoSwipeLocalize.push({id:"pinterest", label:"Pin it", url:"http://www.pinterest.com/pin/create/button/"+ "?url={{url}}&media={{image_url}}&description={{text}}"});photoSwipeLocalize.push({id:"download", label:"Download image", url:"{{raw_image_url}}", download:true});
+            var isFilterClick = false;
+            var UxCBModGlobal = [];
+            var UxCBModGlobalAjax = "false";
+            var ajaxurl = "nextpage/masonry-grid-ajax-pagination2.html";
+            var JS_PATH = "/js/"
+        </script>
+
+        <style id='module-style-inline-css' type='text/css'> 
+            .navi-trigger-out {
+                margin-left: 20px;
+            }
+        </style>
+
+	</head>
+  
+    <body class="home page pswp-dark-skin responsive-ux navi-hide navi-hide-pop2 hide-menu-desktop show-menu-icon-mobile menu_hover_default page_from_top non_bg_header alt-logo alt-menu default-logo-menu-expand default-logo-menu-mobile header-sticky-none">
+
+        <div class="wrap-all">
+
+            <!--Audio Player-->
+            <div id="jquery_jplayer" class="jp-jplayer"></div>
+
+            <!--Main wrap-->
+            <div id="wrap-outer">
+
+                <!--Header-->
+                <header id="header" class=" " data-scroll="0">
+
+                    <div id="header-main" class="header-main container-fluid"> 
+
+                        <!-- Logo -->
+                        <div class="navi-logo">
+
+                            <div class="logo-wrap">
+								<div class="logo " id="logo">
+									<a class="logo-a" href="index.html" title="Creative Demo">
+									<span class="logo-text logo-not-show-txt">SEA HTML5 Template</span>
+									<img class="logo-image logo-image-default" src="demo-imgs/logo-dark.svg" alt="SEA HTML5 Template" />
+									<span class="logo-image-alt">
+									<img class="logo-image" src="demo-imgs/logo-light.svg" alt="SEA HTML5 Template" />
+									</span>
+									</a>
+								</div>
+								<!--End logo-->
+							</div>
+							<!--End logo wrap-->
+
+                        </div><!--End navi-logo-->
+
+                        <!--Menu on header-->
+                        <div class="head-meta">
+
+                            <!--Header Icon-->
+                            <div class="header-portfolio-icon">
+
+                                <a class="portfolio-icon" href="javascript:;" data-postid="8"> 
+                                    <svg class="header-icon-svg header-icon-svg-6dots" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380">
+                                        <g class="header-square6"><rect class="headericon-rect" width="380" height="50" /></g>
+                                        <g class="header-square5"><rect class="headericon-rect" width="380" height="50" /></g>
+                                        <g class="header-square4"><rect class="headericon-rect" width="380" height="50" /></g>
+                                        <g class="header-square3"><rect class="headericon-rect" width="380" height="50" /></g>
+                                        <g class="header-square2"><rect class="headericon-rect" width="380" height="50" /></g>
+                                        <g class="header-square1"><rect class="headericon-rect" width="380" height="50" /></g>
+                                    </svg>
+                                </a>
+
+                            </div><!--End header-portfolio-icon-->
+
+                            <!--Menu Icon-->
+                            <div class="navi-trigger-out navi-trigger-hamburg">
+
+                                <a href="javascript:;" id="navi-trigger" class="navi-trigger">
+                                    <svg class="navi-trigger-svg svg-style02" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380">
+                                        <g class="svg-style02-line2 svg-style02-line"><rect class="svg-style02-line-rect" width="380" height="50" /></g>
+                                        <g class="svg-style02-line1 svg-style02-line"><rect class="svg-style02-line-rect" width="380" height="50" /></g>
+                                    </svg>
+                                </a>
+
+                            </div>
+                        
+                        </div><!--End head-meta-->
+
+                    </div><!--End head-main--> 
+                    
+                </header>
+
+                <!--Expanded Menu Panel-->
+                <div id="menu-panel" class="menu-panel menu-panel-align-center menu-panel-bottom-layout-b">
+
+                    <div class="menu-panel-inn container-fluid">
+                     
+                        <nav id="navi" class="navi">
+
+                            <div id="navi-wrap">
+
+                                <ul class="menu clearfix">
+                                    <li class="menu-item current-menu-item"><a href="index.html">Works</a></li>
+                                    <li class="menu-item"><a href="blog.html">Blog</a></li> 
+                                    <li class="menu-item"><a href="page-info.html">Info</a></li>
+                                </ul>
+
+                            </div><!--End #navi_wrap-->
+                        </nav>
+
+                        <div id="menu-panel-bottom" class="menu-panel-bottom container-fluid ">
+
+                            <div class="menu-panel-bottom-left col-md-6 col-sm-6 col-xs-6">
+
+                                <div class="menu-panel-text middle-ux">
+                                Designed by <a href="https://www.seatheme.net/">SeaTheme</a>
+                                </div>
+
+                            </div><!--End menu-panel-bottom-left-->
+
+                            <div class="menu-panel-bottom-right col-md-6 col-sm-6 col-xs-6">
+
+                                <section class="">
+            
+                                    <ul class="socialmeida clearfix">                       
+                                
+                                        <li class="socialmeida-li">
+                                            <a title="" href="https://twitter.com/Sea_Theme" class="socialmeida-a" rel="nofollow ">
+                                                <span class="fa fa-twitter-square"></span> </a>
+                                        </li>
+                                                
+                                        <li class="socialmeida-li">
+                                            <a title="" href="https://www.facebook.com/Uiueux/" class="socialmeida-a" rel="nofollow ">
+                                                <span class="fa fa-facebook-square"></span> </a>
+                                        </li>
+                                                
+                                        <li class="socialmeida-li">
+                                            <a title="" href="https://seatheme.net" class="socialmeida-a" rel="nofollow ">
+                                                <span class="fa fa-instagram"></span> </a>
+                                        </li>
+
+                                    </ul>
+            
+                                </section>
+                            </div><!--End menu-panel-bottom-right-->
+                        </div><!--End #menu-panel-bottom-->
+                    </div>
+                </div><!--End #menu-panel-->
+
+                <!--Header icon panel-->
+                <div id="portfolio-panel" class="portfolio-panel">
+                    <div class="portfolio-panel-wrap bm-middle container-fluid">
+                        <div class="portfolio-panel-wrap-inn"> 
+                            <div class="bm-builder clearfix ">
+                                <!--Grid module--> 
+                                <div id="" class="module col-12 module-id-1573192737761" data-module-col="12">
+                                    <div class="module-inside " style="margin-top:60px; --spacing-grid:10px; --spacing-grid-m:5px; --fontsize-grid-title:14px; --fontsize-grid-title-m:12px; --margintop-grid-title:0px; --margintop-grid-title-m: 0px; --margintop-grid-cate:10px; --margintop-grid-cate-m:5px; --fontsize-grid-cate:12px; --fontsize-grid-cate-m:10px; --color-grid-cate:#777; ">
+
+                                        <div class="container-masonry ux-portfolio-5col  ux-portfolio-full  ux-ratio-169 filter-left " data-ratio="0.5625" data-col="5" data-found="10" data-number="999" data-mod="grid">
+                                            <div class="masonry-list grid-list clearfix grid-list-1573192737761 grid-list-tit-shown     mouseover-no-effect "  data-unique="1573192737761" data-source="ux-portfolio">
+
+                                                <section class="grid-item sea-grid-item filter_branding filter_ui filter_works " data-postid="1500">
+                                                    <div class="grid-item-inside   " data-animationend="fadeined">
+                                                        <div class="grid-item-con  sea-grid-item-con post--1500" >
+                                                            <a href="project-title-with-a-image-mask.html" title="Title with a Image Mask"  class="grid-item-mask-link">
+                                                            </a>
+                                                        </div>
+                                                        <div class="brick-content ux-lazyload-wrap  " style=" padding-top: 150%;">
+                                                            <img class="grid-item-img ux-background-img-1st lazy" src="img/blank.gif" data-src="https://via.placeholder.com/1000x1500/BECCFF.jpg" alt="Title with a Image Mask">
+                                                        </div>
+                                                        <div class="grid-item-con-text-tit-shown grid-text-left standard-text-padding">
+                                                            <h2 class="grid-item-tit">Title with a Image Mask</h2> 
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="grid-item sea-grid-item filter_ui filter_works " data-postid="1498">
+                                                    <div class="grid-item-inside   " data-animationend="fadeined">
+                                                        <div class="grid-item-con  sea-grid-item-con post--1498" >
+                                                            <a href="project-gallery-on-left.html" title="Gallery on Left"  class="grid-item-mask-link">
+                                                            </a>
+                                                        </div>
+                                                        <div class="brick-content ux-lazyload-wrap  " style=" padding-top: 50.8%;">
+                                                            <img class="grid-item-img ux-background-img-1st lazy" src="img/blank.gif" data-src="https://via.placeholder.com/1000x508/9cd7e6/999999.jpg" alt="Gallery on Left">
+                                                        </div>
+                                                        <div class="grid-item-con-text-tit-shown grid-text-left standard-text-padding">
+                                                            <h2 class="grid-item-tit">Gallery on Left</h2>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="grid-item sea-grid-item filter_illustration filter_works " data-postid="1502">
+                                                    <div class="grid-item-inside   " data-animationend="fadeined">
+                                                        <div class="grid-item-con  sea-grid-item-con post--1502" >
+                                                            <a href="project-classic.html" title="Title on Left"  class="grid-item-mask-link">
+                                                            </a>
+                                                        </div>
+                                                        <div class="brick-content ux-lazyload-wrap  " style=" padding-top: 66.6%;">
+                                                            <img class="grid-item-img ux-background-img-1st lazy" src="img/blank.gif" data-src="https://via.placeholder.com/1000x666/eac418/ffffff.jpg" alt="Title on Left">
+                                                        </div>
+                                                        <div class="grid-item-con-text-tit-shown grid-text-left standard-text-padding">
+                                                            <h2 class="grid-item-tit">Title on Left</h2>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="grid-item sea-grid-item filter_illustration filter_works " data-postid="1497">
+                                                    <div class="grid-item-inside   " data-animationend="fadeined">
+                                                        <div class="grid-item-con  sea-grid-item-con post--1497" >
+                                                            <a href="project-start-with-text.html" title="PhotoSwipe HTML5 Template"  class="grid-item-mask-link">
+                                                            </a>
+                                                        </div>
+                                                        <div class="brick-content ux-lazyload-wrap  " style=" padding-top: 66.6%;">
+                                                            <img class="grid-item-img ux-background-img-1st lazy" src="img/blank.gif" data-src="https://via.placeholder.com/1000x666/e9ddd7/999999.jpg" alt="PhotoSwipe HTML5 Template">
+                                                        </div>
+                                                        <div class="grid-item-con-text-tit-shown grid-text-left standard-text-padding">
+                                                            <h2 class="grid-item-tit">PhotoSwipe HTML5 Template</h2>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="grid-item sea-grid-item filter_ui filter_works " data-postid="1503">
+                                                    <div class="grid-item-inside   " data-animationend="fadeined">
+                                                        <div class="grid-item-con  sea-grid-item-con post--1503" >
+                                                            <a href="project-start-with-text.html" title="Start with Text"  class="grid-item-mask-link">
+                                                            </a>
+                                                        </div>
+                                                        <div class="brick-content ux-lazyload-wrap  " style=" padding-top: 66.6%;">
+                                                            <img class="grid-item-img ux-background-img-1st lazy" src="img/blank.gif" data-src="https://via.placeholder.com/1000x666/38698e/eeeeee.jpg" alt="Start with Text">
+                                                        </div>
+                                                        <div class="grid-item-con-text-tit-shown grid-text-left standard-text-padding">
+                                                            <h2 class="grid-item-tit">Start with Text</h2>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="grid-item sea-grid-item filter_ui filter_works " data-postid="1499">
+                                                    <div class="grid-item-inside   " data-animationend="fadeined">
+                                                        <div class="grid-item-con  sea-grid-item-con post--1499" >
+                                                            <a href="project-start-with-fixed-background-image.html" title="Start with Fixed Background Image"  class="grid-item-mask-link">
+                                                            </a>
+                                                        </div>
+                                                        <div class="brick-content ux-lazyload-wrap  " style=" padding-top: 66.7%;">
+                                                            <img class="grid-item-img ux-background-img-1st lazy" src="img/blank.gif" data-src="https://via.placeholder.com/1000x667/2d346b/cccccc.jpg" alt="Start with Fixed Background Image">
+                                                        </div>
+                                                        <div class="grid-item-con-text-tit-shown grid-text-left standard-text-padding">
+                                                            <h2 class="grid-item-tit">Start with Fixed Background Image</h2>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="grid-item sea-grid-item filter_branding filter_works " data-postid="1496">
+                                                    <div class="grid-item-inside   " data-animationend="fadeined">
+                                                        <div class="grid-item-con  sea-grid-item-con post--1496" >
+                                                            <a href="project-carousel.html" title="Slider B"  class="grid-item-mask-link">
+                                                            </a>
+                                                        </div>
+                                                        <div class="brick-content ux-lazyload-wrap  " style=" padding-top: 50.8%;">
+                                                            <img class="grid-item-img ux-background-img-1st lazy" src="img/blank.gif" data-src="https://via.placeholder.com/1000x508/2f1010/ecd9d1.jpg" alt="Slider B">
+                                                        </div>
+                                                        <div class="grid-item-con-text-tit-shown grid-text-left standard-text-padding">
+                                                            <h2 class="grid-item-tit">Slider B</h2>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="grid-item sea-grid-item filter_ui filter_works " data-postid="1501">
+                                                    <div class="grid-item-inside   " data-animationend="fadeined">
+                                                        <div class="grid-item-con  sea-grid-item-con post--1501" >
+                                                            <a href="project-start-with-slider.html" title="Start with a Slider"  class="grid-item-mask-link">
+                                                            </a>
+                                                        </div>
+                                                        <div class="brick-content ux-lazyload-wrap  " style=" padding-top: 66.6%;">
+                                                            <img class="grid-item-img ux-background-img-1st lazy" src="img/blank.gif" data-src="https://via.placeholder.com/1000x666/fcdf03/777777.jpg" alt="Start with a Slider">
+                                                        </div>
+                                                        <div class="grid-item-con-text-tit-shown grid-text-left standard-text-padding">
+                                                            <h2 class="grid-item-tit">Start with a Slider</h2>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="grid-item sea-grid-item filter_illustration filter_works " data-postid="1504">
+                                                    <div class="grid-item-inside   " data-animationend="fadeined">
+                                                        <div class="grid-item-con  sea-grid-item-con post--1504" >
+                                                            <a href="project-gallery-on-right.html" title="Gallery on Right"  class="grid-item-mask-link">
+                                                            </a>
+                                                        </div>
+                                                        <div class="brick-content ux-lazyload-wrap  " style=" padding-top: 59.322033898305%;">
+                                                            <img class="grid-item-img ux-background-img-1st lazy" src="img/blank.gif" data-src="https://via.placeholder.com/885x525/e4e4e4/999999.jpg" alt="Gallery on Right">
+                                                        </div>
+                                                        <div class="grid-item-con-text-tit-shown grid-text-left standard-text-padding">
+                                                            <h2 class="grid-item-tit">Gallery on Right</h2>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="grid-item sea-grid-item filter_branding filter_illustration filter_ui filter_works " data-postid="1495">
+                                                    <div class="grid-item-inside   " data-animationend="fadeined">
+                                                        <div class="grid-item-con  sea-grid-item-con post--1495" >
+                                                            <a href="project-no-title.html" title="No Title"  class="grid-item-mask-link">
+                                                            </a>
+                                                        </div>
+                                                        <div class="brick-content ux-lazyload-wrap  " style=" padding-top: 66.7%;">
+                                                            <img class="grid-item-img ux-background-img-1st lazy" src="img/blank.gif" data-src="https://via.placeholder.com/1000x667/ab7883/ffdbe3.jpg" alt="No Title">
+                                                        </div>
+                                                        <div class="grid-item-con-text-tit-shown grid-text-left standard-text-padding">
+                                                            <h2 class="grid-item-tit">No Title</h2>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div><!--End module-inside-->
+                                </div><!--End module-->    
+                            </div>
+                        </div>
+                    </div>
+                </div><!--End portfolio-panel-->        
+
+    			
+                <!-- Main Content Wrap -->
+        		<div id="wrap"> 
+
+                    <!-- Main Content : portfolio, text content ... -->
+        	        <div id="content">
+
+                        <div class="content_wrap_outer fullwrap-layout">
+                
+                            <div id="content_wrap" class="">
+
+                                <div class="entry container-fluid container-class">
+
+                                    <!--BM Builder-->
+                                    <div class="bm-builder">
+
+                                        <!-- Slider module -->
+                                        <!-- Fullscreen Slider, col-0 means fullwidth-->
+                                        <div id="" class="module col-0 module-id-1568607326884" data-module-col="0">
+
+                                            <div class="module-inside post-0-6770">
+
+                                                <div class="slider-mod-wrap slider-style1 slide-des-bottom-left slide-arrow-show-default"  data-animationend="fadeined" style="--slider-height-style1:100vh;--slider-height-style1-m: 60vh;">
+
+                                                    <div id="slider-arrow-left" class="slider-arrow-left slider-arrow"></div>
+                                                    <div id="slider-arrow-right" class="slider-arrow-right slider-arrow"></div>
+
+                                                    <div class="owl-carousel " data-item="1" data-mobileitem="1" data-center="false" data-margin="0" data-marginmobile="0" data-autowidth="false" data-slideby="1" data-showdot="true" data-loop="true" data-nav="false" data-animateout="fadeOut" data-animatein="fadeIn" data-mousedrag="false" data-transition="300" data-auto="true" data-autoplayTimeout="1117000" data-lazy="true">
+
+                                                        <section class="item" data-logocolor="alt-logo" data-menucolor="alt-menu" data-id="post-0-6770">
+                                                            <div class="slide-item-wrap">
+                                                                <div class="slide-item-des">
+                                                                    <div class="slide-item-des-wrap"></div>
+                                                                </div>
+                                                                <div class="carousel-img-wrap">
+                                                                    <img src="img/blank.gif" data-src="https://via.placeholder.com/1400x934/4B50E1/FFFFFF.jpg" alt="ART Slider"  class="grid-item-img owl-lazy lazy" >
+                                                                </div>
+                                                            </div>
+                                                        </section>
+
+                                                        <section class="item" data-logocolor="alt-logo" data-menucolor="alt-menu" data-id="post-1-5595">
+                                                            <div class="slide-item-wrap">
+                                                                <div class="slide-item-des">
+                                                                    <div class="slide-item-des-wrap"></div>
+                                                                </div>
+                                                                <div class="carousel-img-wrap">
+                                                                    <img src="img/blank.gif" data-src="https://via.placeholder.com/1400x933/FFC92A/ffffff.jpg" alt="ART Slider 2"  class="grid-item-img owl-lazy lazy" >
+                                                                </div>
+                                                            </div>
+                                                        </section>
+
+                                                        <section class="item" data-logocolor="default-logo" data-menucolor="alt-menu" data-id="post-2-5626">
+                                                            <div class="slide-item-wrap">
+                                                                <div class="slide-item-des">
+                                                                    <div class="slide-item-des-wrap"></div>
+                                                                </div>
+                                                                <div class="carousel-img-wrap">
+                                                                    <img src="img/blank.gif" data-src="https://via.placeholder.com/1400x933/BBE2FF/666666.jpg" alt="ART Slider 3"  class="grid-item-img owl-lazy lazy" >
+                                                                </div>
+                                                            </div>
+                                                        </section>
+
+                                                    </div><!--owl-carousel-->
+
+                                                </div>
+
+                                            </div>    
+                                         
+                                        </div><!--End module-->
+                                     
+
+                                        <!--Group module-->
+                                        <div id="" class="module col-12 module-id-1544767247312 bm-wrap row-middle row-left" data-module-col="12" data-change-color="off" data-backcolor="transparent" data-frontcolor="" data-logocolor="" data-goto-top="off" data-goto-top-spacing="0" data-groupsameheight="off">
+
+                                            <div class="module-inside" style="--height-group:90vh; --height-group-m:60vh;">
+
+                                                <!--Text module-->
+                                                <div id="" class="module col-12 module-id-1569485161691" data-module-col="12">
+
+                                                    <div class="module-inside" style="margin-top:20px; --margin-top-mod-m:10px; margin-bottom:20px; --margin-bottom-mod-m:20px;">
+
+                                                        <div class="text_block_out " data-animationend="fadeined" data-effect="standard">
+
+                                                            <div class="text_block ux-mod-nobg">
+
+                                                                <div class="text_block_inn">
+
+                                                                    <div class="text_block_centered">
+                                                                        <h1 style="font-size:26px;"><font color="#efc631">HTML ART.</font></h1>
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div><!--End module-->
+
+                                                <!--Text module-->
+                                                <div id="" class="module col-9 module-id-1531970227087" data-module-col="9">
+
+                                                    <div class="module-inside ">
+
+                                                        <div class="text_block_out " data-animationend="fadeined" data-effect="standard">
+
+                                                            <div class="text_block ux-mod-nobg">
+                                                                <div class="text_block_inn">
+                                                                    <div class="text_block_centered ">
+                                                                        <h2 style="text-align: left; line-height: 1.2;font-size: 46px; font-size: 4vw; --font-size-m:32px;">
+                                                                            Regardless of your creative intentions, ART is the HTML5 template for artist and creativity looking to build impressive online portfolios.
+                                                                        </h2>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div><!--End module-->
+
+                                                <!--Button module-->
+                                                <div id="" class="module col-10 module-id-1545983730593" data-module-col="10">
+
+                                                    <div class="module-inside " style="margin-top:20px; --margin-top-mod-m:10px; margin-bottom:20px; --margin-bottom-mod-m:20px; --font-size-btn: 24px; --font-size-btn-m:13px;" >
+
+                                                         <div class="btn-mod-wrap btn-1545983730593 btn-left btn-equal-m ux-horizontal " data-animationend="fadeined" style=" --margin-right-btn-item-m:0; --margin-right-btn-item-m:0 ">
+                                                            
+                                                            <a class="ux-btn ux-cb-btn-facebook fadeInM" href="https://www.facebook.com/uiueux" title="Facebook" style="margin-right: 40px; margin-left: 0px;">
+                                                                <span class="ux-btn-text-wrap"><span class="ux-btn-text">Facebook</span></span>
+                                                            </a>
+
+                                                            <a class="ux-btn ux-cb-btn-twitter fadeInM" href="https://twitter.com/Sea_theme" title="Twitter" style="margin-right: 40px; margin-left: 0px;">
+                                                                <span class="ux-btn-text-wrap"><span class="ux-btn-text">Twitter</span></span>
+                                                            </a>
+
+                                                            <a class="ux-btn ux-cb-btn-instagram fadeInM" href="https://www.seatheme.net" title="Instagram" style="margin-right: 40px; margin-left: 0px;">
+                                                                <span class="ux-btn-text-wrap"><span class="ux-btn-text">Instagram</span></span>
+                                                            </a>
+
+                                                            <a class="ux-btn ux-cb-btn-behance fadeInM" href="https://www.seatheme.net" title="Behance" style="margin-right: 40px; margin-left: 0px;">
+                                                                <span class="ux-btn-text-wrap"><span class="ux-btn-text">Behance</span></span>
+                                                            </a>
+
+                                                            <a class="ux-btn ux-cb-btn-dribbble fadeInM" href="https://www.seatheme.net" title="Dribbble" style="margin-left: 0px;">
+                                                                <span class="ux-btn-text-wrap"><span class="ux-btn-text">Dribbble</span></span>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div><!--End module-->
+
+                                            </div>
+
+                                        </div><!--End module .bm-wrap-->
+
+
+                                         <!--Masonry Grid-->
+                                        <div id="" class="module col-12 module-id-1571113505252" data-module-col="12">
+
+                                            <div class="module-inside" style="margin-bottom:20px; --margin-bottom-mod-m:20px;--spacing-masonrygrid-m: 20px;">
+
+                                                <div class="ux-portfolio-full bm-masonry-grid">
+
+                                                    <div class="grid-stack grid-stack-157111350525 hidden" data-spacing="60" data-spacing-mobile="20" data-item-style="image" data-number="7">
+
+                                                        <!-- Masonry Grid Item -->
+                                                        <div class="grid-stack-item sea-grid-item grid_item_2nd_class" data-postid="01" data-gs-x="0" data-gs-y="0" data-gs-width="12" data-gs-height="8">
+                                                            <div class="grid-stack-item-content">
+                                                                <div class="grid-item-inside bm-touch-tab" data-animationend="fadeined">
+                                                                    <div class="grid-item-con sea-grid-item-con post--01">
+                                                                        <a href="project-start-with-fixed-background-image.html" title="Start Fixed BG Image"  class="grid-item-mask-link"></a>
+                                                                        <div class="grid-item-con-text"></div>
+                                                                    </div>
+                                                                    <div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.714285714286%;">
+                                                                        <img src="img/blank.gif" data-src="https://via.placeholder.com/1000x800/94182c/ffffff.jpg" alt="Strat Fixed BG Image" data-xx="12" class="grid-item-img ux-background-img-1st lazy">
+                                                                        <img src="img/blank.gif" data-src="https://via.placeholder.com/1000x800/B957FF/ffffff.jpg" alt="Strat Fixed BG Image Second Img" class="grid-item-img ux-background-img-2nd lazy">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Masonry Grid Item -->
+                                                        <div class="grid-stack-item sea-grid-item grid_item_2nd_class" data-postid="02" data-gs-x="12" data-gs-y="0" data-gs-width="12" data-gs-height="16">
+                                                            <div class="grid-stack-item-content">
+                                                                <div class="grid-item-inside bm-touch-tab" data-animationend="fadeined">
+                                                                    <div class="grid-item-con sea-grid-item-con post--02" >
+                                                                        <a href="project-start-with-text.html" title="Strat with Text"  class="grid-item-mask-link"></a>
+                                                                        <div class="grid-item-con-text"></div>
+                                                                    </div>
+                                                                    <div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.642857142857%;">
+                                                                        <img src="img/blank.gif" data-src="https://via.placeholder.com/1000x2000/e59e99/ffffff.jpg" alt="Strat with Text" data-xx="12" class="grid-item-img ux-background-img-1st lazy">
+                                                                        <img src="img/blank.gif" data-src="https://via.placeholder.com/1000x2000/D9B3FF/ffffff.jpg" alt="Strat with Text Second Img" class="grid-item-img ux-background-img-2nd lazy">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Masonry Grid Item -->
+                                                        <div class="grid-stack-item sea-grid-item grid_item_2nd_class" data-postid="03" data-gs-x="0" data-gs-y="8" data-gs-width="12" data-gs-height="8">
+                                                            <div class="grid-stack-item-content">
+                                                                <div class="grid-item-inside bm-touch-tab" data-animationend="fadeined">
+                                                                    <div class="grid-item-con sea-grid-item-con  post--03" >
+                                                                        <a href="project-no-title.html" title="No Title"  class="grid-item-mask-link"></a>
+                                                                        <div class="grid-item-con-text"></div>
+                                                                    </div>
+                                                                    <div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.714285714286%;">
+                                                                        <img src="img/blank.gif" data-src="https://via.placeholder.com/1000x800/0a4ea5/ffffff.jpg" alt="No Title" data-xx="12" class="grid-item-img ux-background-img-1st lazy">
+                                                                        <img src="img/blank.gif" data-src="https://via.placeholder.com/1000x800/1f1667/ffffff.jpg" alt="No Title Second Img" class="grid-item-img ux-background-img-2nd lazy">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Masonry Grid Item -->
+                                                        <div class="grid-stack-item sea-grid-item grid_item_2nd_class" data-postid="04" data-gs-x="0" data-gs-y="16" data-gs-width="12" data-gs-height="8">
+                                                            <div class="grid-stack-item-content">
+                                                                <div class="grid-item-inside bm-touch-tab" data-animationend="fadeined">
+                                                                    <div class="grid-item-con sea-grid-item-con  post--04" >
+                                                                        <a href="project-title-with-a-image-mask.html" title="Title with an Image Mask"  class="grid-item-mask-link"></a>
+                                                                        <div class="grid-item-con-text"></div>
+                                                                    </div>
+                                                                    <div class="brick-content ux-lazyload-wrap" style=" padding-top: 63%;">
+                                                                        <img src="img/blank.gif" data-src="https://via.placeholder.com/1000x800/52348c/ffffff.jpg" alt="Title with an Image Mask" data-xx="12" class="grid-item-img ux-background-img-1st lazy">
+                                                                        <img src="img/blank.gif" data-src="https://via.placeholder.com/1000x800/486dd8/ffffff.jpg" alt="Title with an Image Mask Second Img" class="grid-item-img ux-background-img-2nd lazy">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Masonry Grid Item -->
+                                                        <div class="grid-stack-item sea-grid-item grid_item_2nd_class" data-postid="05" data-gs-x="12" data-gs-y="16" data-gs-width="12" data-gs-height="8">
+                                                            <div class="grid-stack-item-content">
+                                                                <div class="grid-item-inside bm-touch-tab" data-animationend="fadeined">
+                                                                    <div class="grid-item-con sea-grid-item-con  post--05" >
+                                                                        <a href="project-gallery-on-right.html" title="Gallery on Right"  class="grid-item-mask-link"></a>
+                                                                        <div class="grid-item-con-text"></div>
+                                                                    </div>
+                                                                    <div class="brick-content ux-lazyload-wrap" style=" padding-top: 59%;">
+                                                                        <img src="img/blank.gif" data-src="https://via.placeholder.com/885x525/5e8794/ffffff.jpg" alt="Gallery on Right" data-xx="12" class="grid-item-img ux-background-img-1st lazy">
+                                                                        <img src="img/blank.gif" data-src="https://via.placeholder.com/885x525/b3b3b3/333333.jpg" alt="Gallery on Right Second Img" class="grid-item-img ux-background-img-2nd lazy">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="clearfix pagenums tw_style page_twitter" data-moduleid="masonry-grid" data-unique="1571113505252" data-pagetext="Load More" data-loadingtext="Loading" >
+                                                        <a class="tw-style-a ux-btn" data-found="5" data-postid="8" data-max="2" data-paged="2" href="#" style="border-width: 0px 0px 0px 0px; font-size: 16px;
+                                                        --fontsize-grid-loadmore-m: 14px; padding-left: 30px; padding-right: 30px;">Load More</a>
+                                                    </div>
+
+                                                </div><!--end ux-portfolio-full-->
+
+                                            </div>
+
+                                        </div><!--end .module--> 
+
+                                    </div><!--End .bm-builder-->
+
+                                    <div class="clear"></div>
+
+                                </div><!--End .entry-->
+
+                            </div><!-- End #content_wrap-->
+
+                        </div><!-- End content_wrap_outer-->
+
+                    </div><!--End #content-->
+
+                    <!-- Footer -->
+                    <footer id="footer" class="footer-cols-layout footer-cols-layout-mobile">
+
+                        <div class="footer-info footer-horizon-left footer-horizon-left-mobile">
+                            
+                            <div class="container-fluid">
+
+                                <div class="footer-cols-item footer-cols-item-mobile">
+
+                                    <div class="copyright"><a href="https://www.seateme.net" title="Designer by SeaTheme">Designed by SeaTheme</a> - Do what is great.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+                </div><!--End #wrap -->
+    	  
+            </div><!--End wrap-outer-->
+
+            <!-- Lightbox -->
+            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+                <div class="pswp__bg"></div>
+
+                <div class="pswp__scroll-wrap">
+
+                    <div class="pswp__container">
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                    </div>
+
+                    <div class="pswp__ui pswp__ui--hidden">
+
+                        <div class="pswp__top-bar">
+
+                            <div class="pswp__counter"></div>
+                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                            <button class="pswp__button pswp__button--share" title="Share"></button>
+                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                            <div class="pswp__preloader">
+                                <div class="pswp__preloader__icn">
+                                  <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                            <div class="pswp__share-tooltip"></div> 
+                        </div>
+
+                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                        </button>
+                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                        </button>
+
+                        <div class="pswp__caption">
+                            <div class="pswp__caption__center"></div>
+                        </div>
+
+                    </div>
+
+                </div><!--End pswp__scroll-wrap-->
+
+            </div><!--End pswp-->
+
+        </div><!--End wrap-all-->
+        
+        <div id="get-scroll-width"></div>
+
+        <!-- jQuery Library -->
+        <script src='js/library/jquery.min.js'></script>
+        <!-- Underscore -->
+        <script src='js/underscore.min.js'></script>
+        <!-- Modernizr -->
+        <script src='js/modernizr-custom.js'></script>
+        <!-- Waypoints Plugin -->
+        <script src='js/jquery.waypoints.min.js'></script>
+        <!-- ImageLoaded Plugin-->
+        <script src='js/imagesloaded.pkgd.min.js'></script>
+        <!-- isotope Plugin -->
+        <script src='js/isotope.pkgd.min.js'></script>
+        <!-- Packery layout mode -->
+        <script src='js/packery-mode.pkgd.min.js'></script>
+        <!-- Photoswipe Plugin -->
+        <script src='js/photoswipe.min.js'></script>
+        <!-- Photoswipe Plugin UI -->
+        <script src='js/photoswipe-ui-default.min.js'></script>
+        <!-- OWL Carousel Plugin -->
+        <script src='js/owl.carousel.min.js'></script>
+        <!-- Lazy Load Plugin-->
+        <script src='js/lazyload.min.js'></script>
+        <!-- jplayer Plugin -->
+        <script src='js/jquery.jplayer.min.js'></script>
+        <!-- Modules Global js-->
+        <script src='js/modules-global.js'></script>
+        <!-- Text Module js-->
+        <script src='js/mod/text.js'></script>
+        <!-- Single Image Module js-->
+        <script src='js/mod/single-image.js'></script>
+        <!-- Slide Module js-->
+        <script src='js/mod/slider.js'></script>
+        <!-- Grid Module js-->
+        <script src='js/mod/grid.js'></script>
+        <!-- Masonry Grid Module js-->
+        <script src='js/mod/masonry-grid.js'></script>
+        <!-- Embed Module js-->
+        <script src='js/mod/embed.js'></script>
+        <!-- Contact Form Module js-->
+        <script src='js/mod/contact-form.js'></script>
+        <!-- Single Portfolio js -->
+        <script src='js/portfolio-2col.js'></script>
+        <!-- Theme main js -->
+        <script src='js/custom.theme.js'></script>
+
+    </body>
+</html>
