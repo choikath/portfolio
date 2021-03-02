@@ -170,12 +170,12 @@ header li > a:focus,
 .socialmeida-a:focus .socialmeida-text,
 .socialmeida-a:hover .fa  {
 	/* Menu mouseover color (on header) - Default */
-	color: #0c07d4;
+	color: #3C4FEB;
 }
 
 header .navi-header li.current-menu-item > a {
 	/* Menu Current Item color (on header) - Default */
-	color: #0c07d4;
+	color: #3C4FEB;
 }
 
 /* Alertnative Menu Color(on header) */
@@ -196,13 +196,13 @@ header .navi-header li.current-menu-item > a {
 .alt-menu header .socialmeida-a:focus .socialmeida-text,
 .alt-menu header .socialmeida-a:hover .fa {
 	/* Menu mouseover color (on header) - Alertnative */
-	color: #63fd9a;
+	color: #1da1f2;
 }
 
 .alt-menu header li.current-menu-item > a,
 .alt-menu header .navi-header li.current-menu-item > a {
 	/* Menu Current Item color (on header) - Alertnative */
-	color: #0c07d4;
+	color: #3C4FEB;
 }
 
 /* Menu Color on Expanded Panel */
@@ -228,12 +228,12 @@ input.search_top_form_text:focus::placeholder {
 .show_mobile_menu .menu-panel-bottom a:hover,
 .show_mobile_menu .menu-panel-bottom a:hover .fa {
 	/* Menu mouseover color (on expanded panel) */
-	color: #0c07d4;
+	color: #3C4FEB;
 }
 
 .navi li.current-menu-item > a {
 	/* Menu Current Item color (on expanded panel) */
-	color: #0c07d4;
+	color: #3C4FEB;
 }
 
 /* Logo text color*/
@@ -337,11 +337,11 @@ h3#reply-title small,
 .comment-reply-link:hover,
 .comment-edit-link:hover,
 .woocommerce-info::before {
-	color: #0c07d4;
+	color: #3C4FEB;
 }
 
 .comment-body::before {
-	background-color: #0c07d4;
+	background-color: #3C4FEB;
 }
 
 /* linked hover color*/
@@ -396,7 +396,7 @@ a:focus,
 .article-cate-a:after,
 .article-tag a[rel="tag"],
 .article-tag a[rel="tag"]:after {
-	color: #0c07d4;
+	color: #3C4FEB;
 }
 
 /* Meta linked text hover color */
@@ -437,7 +437,7 @@ figcaption {
 
 /* Archive page item title hover color */
 .archive-tit a:hover {
-	color: #0c07d4;
+	color: #3C4FEB;
 }
 
 /* Selection text color */
@@ -515,7 +515,7 @@ textarea:focus::placeholder {
 
 /* Sidebar widget content linked text hover color */
 .widget-container a:hover {
-	color: #0c07d4;
+	color: #3C4FEB;
 }
 
 /* Footer text color */
@@ -539,7 +539,7 @@ textarea:focus::placeholder {
 .copyright a:hover,
 .footer-info a:hover,
 .footer-info .socialmeida-a:hover {
-	color: #0c07d4;
+	color: #3C4FEB;
 }
 
 /* Footer Background color */
@@ -560,7 +560,7 @@ textarea:focus::placeholder {
 .post-meta-social-li .fa-facebook:hover,
 .socialmeida-a:hover .fa-facebook:before,
 .socialmeida-a:hover .fa-facebook-square:before {
-    color: #3b5998;
+    color: #1da1f2;
 }
 
 .btn-mod-wrap .ux-cb-btn-twitter:hover,
@@ -573,7 +573,7 @@ textarea:focus::placeholder {
 .btn-mod-wrap .ux-cb-btn-instagram:hover,
 .post-meta-social-li .fa-instagram:hover,
 .socialmeida-a:hover .fa-instagram:before {
-    color: #405de6;
+    color: #3C4FEB;
 }
 
 .btn-mod-wrap .ux-cb-btn-pinterest:hover,
@@ -585,7 +585,7 @@ textarea:focus::placeholder {
 .btn-mod-wrap .ux-cb-btn-behance:hover,
 .post-meta-social-li .fa-behance:hover,
 .socialmeida-a:hover .fa-behance:before {
-    color: #1769ff;
+    color: #3C4FEB;
 }
 
 .btn-mod-wrap .ux-cb-btn-dribbble:hover,
@@ -597,7 +597,7 @@ textarea:focus::placeholder {
 .btn-mod-wrap .ux-cb-btn-digg:hover,
 .post-meta-social-li .fa-digg:hover,
 .socialmeida-a:hover .fa-digg:before {
-    color: #005be2;
+    color: #3C4FEB;
 }
 
 .btn-mod-wrap .ux-cb-btn-reddit:hover,
@@ -609,7 +609,7 @@ textarea:focus::placeholder {
 .btn-mod-wrap .ux-cb-btn-linkedin:hover,
 .post-meta-social-li .fa-linkedin:hover,
 .socialmeida-a:hover .fa-linkedin:before {
-    color: #0077b5;
+    color: #3C4FEB;
 }
 
 .btn-mod-wrap .ux-cb-btn-stumbleupon:hover,
@@ -627,7 +627,7 @@ textarea:focus::placeholder {
 .btn-mod-wrap .ux-cb-btn-mail:hover,
 .post-meta-social-li .fa-envelope-o:hover,
 .socialmeida-a:hover .fa-envelope-o:before {
-    color: #c1d82f;
+    color: #3C4FEB;
 }
 
 /*   Secton 3. Fonts   */
