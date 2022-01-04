@@ -853,29 +853,29 @@ input[type="submit"] {
 	}
 
 	/* h1 - h6 default */
-	.responsive-ux h1 {
-		font-size: 32px;
+	/* .responsive-ux h1 {
+		font-size: 12px;
 	}
 
 	.responsive-ux h2 {
-		font-size: 28px;
+		font-size: 14px;
 	}
 
 	.responsive-ux h3 {
-		font-size: 24px;
+		font-size: 14px;
 	}
 
 	.responsive-ux h4 {
-		font-size: 20px;
+		font-size: 12px;
 	}
 
 	.responsive-ux h5 {
-		font-size: 18px;
+		font-size: 8px;
 	}
 
 	.responsive-ux h6 {
-		font-size: 16px;
-	}
+		font-size: 8px;
+	} */
 
 	/* Meta */
 	.responsive-ux .article-meta,
@@ -990,6 +990,33 @@ input[type="submit"] {
 	.show_popup .taglines {
 		color: #313139;
 	}
+
+	//mixins
+	@mixin align {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+	}
+
+	//presentation
+	.container {
+	  position: relative;
+	  .page-title, .page-sub-title  {
+	    color: white;
+	    text-align: center;
+	  }
+	  .page-title {
+	    margin: 30px 0 5px;
+	    font-size: 30px;
+	  }
+	  .page-sub-title {
+	    font-weight: 100;
+	    margin: 0 0 30px 0;
+	    font-size: 23px;
+	  }
+	}
+
 
 
 

@@ -765,7 +765,7 @@ div.ux-hover-wrap, .single-image div[data-lightbox="true"] {
 .single-image-full .ux-hover-wrap {
 	display: block;
 	width: 100%;
-	height: 100%;
+	height: 85%;
 }
 
 .single-image:not(.single-image-full) .ux-hover-wrap {
@@ -780,7 +780,7 @@ div.ux-hover-wrap, .single-image div[data-lightbox="true"] {
 	right: 0;
 	bottom: 0;
 	width: 100%;
-	height: 100%;
+	height: 85%;
 	opacity: 0;
 }
 
@@ -2915,7 +2915,7 @@ div:not(.slider-arrows-bottom-together) > div.slider-arrow-right.slider-arrow im
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 100%;
+	height: 85%;
 	background-color: #000;
 	opacity: .3;
 }
